@@ -1,0 +1,7 @@
+#Exercise 1:
+#Write a Python program that takes a number as input and prints "Even" if it's even and "Odd" if it's odd.
+number = int(input("enter number ::"))
+if number % 2 == 0:
+    print (f"{number} is even")
+else:
+    print(f"{number} is odd")
